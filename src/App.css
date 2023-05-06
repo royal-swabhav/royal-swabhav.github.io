@@ -6,9 +6,6 @@
 html,.main{
   font-size: 10px;
 }
-/* main-header */
-
-
 .container{
   display: flex;
   flex-direction: column;
@@ -64,19 +61,8 @@ html,.main{
   
  }
  td{
-  border-bottom: 1px solid #ddd;
-  height: 2rem;
-  padding-left: 10px;
-  font-size: 25px;
- }
- tr{background-color:white}
- tr:hover {background-color: coral;}
-
-
- /* td{
-  height: 2rem;
-  padding-left: 10px;
-  font-size: 25px;
+  border: 1px solid black;
   
- } */
+ }
+ 
 
