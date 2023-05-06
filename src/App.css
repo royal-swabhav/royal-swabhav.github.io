@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,.main{
+  font-size: 10px;
+}
+/* main-header */
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+  background-color: aqua;
+  }
+  .header-title{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    
+  }
+  h1{
+    font-size: 2.8rem;
+  }
+  .search-field{
+    margin-top: 2rem;
+  }
+  .search-input,.btn{
+    height: 3rem;
+  }
+ .search-input{
+  width: 31rem;
+  margin-right: 1rem;
+  padding-left: 1.3rem;
+  border:none;
+  border-radius: 5px;
+ }
+ .search-input:hover{
+  border: 1px solid black;
+ }
+ .btn{
+  padding: 0 8px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+ }
+ .btn:hover{
+  background-color: white;
+  color: black;
+
+ }
+ .table-container{
+  padding: 20px 20px;
+ }
+ table{
+  width: 100%;
+  border-collapse: collapse;
+  
+ }
+ td{
+  border-bottom: 1px solid #ddd;
+  height: 2rem;
+  padding-left: 10px;
+  font-size: 25px;
+ }
+ tr{background-color:white}
+ tr:hover {background-color: coral;}
+
+
+ /* td{
+  height: 2rem;
+  padding-left: 10px;
+  font-size: 25px;
+  
+ } */
+
